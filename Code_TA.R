@@ -8,7 +8,7 @@ DATA_TA <- read_excel("D:/OneDrive - mhs.unsyiah.ac.id/Semester 7/Draft TA/Data/
 
 View(DATA_TA)
 
-#Melihat ringkasan dan tipe data
+#Melihat ringkasan dan tipe data awal
 summary(DATA_TA)
 str(DATA_TA)
 
@@ -53,6 +53,7 @@ DATA_TA$`Rumah di tempat lain` <- as.factor(DATA_TA$`Rumah di tempat lain`)
 DATA_TA$`ART memiliki usaha sendiri/bersama` <- as.factor(DATA_TA$`ART memiliki usaha sendiri/bersama`)
 DATA_TA$`Status Kesejahteraan` <- as.factor(DATA_TA$`Status Kesejahteraan`)
 
+#Melihat ringkasan dan tipe data setelah ubah ke faktor
 summary(DATA_TA)
 str(DATA_TA)
 
