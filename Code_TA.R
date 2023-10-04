@@ -8,6 +8,7 @@ DATA_TA <- read_excel("D:/OneDrive - mhs.unsyiah.ac.id/Semester 7/Draft TA/Data/
 
 View(DATA_TA)
 
+#Melihat ringkasan dan tipe data
 summary(DATA_TA)
 str(DATA_TA)
 
